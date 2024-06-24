@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment"
+    android:background="#ECEFF5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/arrow_left"
+                android:paddingStart="0dp"
+                android:backgroundTint="#ECEFF5"
+                android:gravity="start"
+                android:layout_gravity="start"
+                android:textSize="24sp"
+                android:textColor="#003C56"
+                android:fontFamily="@font/ibmplexserif_regular"
+                android:text="Назад"/>
+
+            <Button
+                android:id="@+id/button_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="0dp"
+                android:textColor="#7C9CAA"
+                android:backgroundTint="#ECEFF5"
+                android:textSize="24sp"
+                android:fontFamily="@font/ibmplexserif_regular"
+                android:text="@string/exit"
+                android:drawableRight="@drawable/image_exit"/>
+
+        </GridLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="72dp">
+
+            <Button
+                android:id="@+id/button_record"
+                android:layout_width="320dp"
+                android:layout_height="74dp"
+                android:backgroundTint="#F8FDFF"
+                android:textColor="#003C56"
+                android:textSize="28sp"
+                android:fontFamily="@font/ibmplexserif_regular"
+                android:layout_gravity="center"
+                android:text="@string/record"
+                android:layout_marginBottom="32dp"/>
+
+            <Button
+                android:id="@+id/button_info"
+                android:layout_width="320dp"
+                android:layout_height="74dp"
+                android:backgroundTint="#F8FDFF"
+                android:textColor="#003C56"
+                android:textSize="28sp"
+                android:fontFamily="@font/ibmplexserif_regular"
+                android:layout_gravity="center"
+                android:text="@string/info_btn"
+                android:layout_marginBottom="108dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

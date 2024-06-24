@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "241661380542",
+    "project_id": "quizonline-4ea4e",
+    "storage_bucket": "quizonline-4ea4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241661380542:android:ecabadbe20583f23c51bef",
+        "android_client_info": {
+          "package_name": "ru.samsung.itacademy.mdev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0V_5DG0h_k449Q5_MmMhzgVDETCBjBd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

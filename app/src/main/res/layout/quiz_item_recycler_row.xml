@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="229dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="#ECEFF5"
+    app:cardElevation="0dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/card"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:id="@+id/quiz_title_text"
+            tools:text="Кино"
+            android:textSize="28sp"
+            android:fontFamily="@font/ibmplexserif_regular"
+            android:layout_marginTop="68dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#003C56"/>
+
+        <TextView
+            android:layout_width="162dp"
+            android:layout_height="42dp"
+            android:id="@+id/quiz_subtitle_text"
+            android:layout_marginTop="107dp"
+            tools:text="Свет, Камера, Мотор!"
+            android:gravity="center"
+            android:fontFamily="@font/ibmplexserif_regular"
+            android:textSize="16sp"
+            android:textColor="#CC003C56"/>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:id="@+id/quiz_image"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:id="@+id/quiz_count_text"
+            tools:text="20 вопросов"
+            android:gravity="center"
+            android:fontFamily="@font/ibmplexserif_regular"
+            android:textSize="18sp"
+            android:textColor="#003C56"
+            android:layout_marginTop="163dp"/>
+
+        </RelativeLayout>
+    </FrameLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|top"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="0dp">
+    <ImageView
+        android:id="@+id/quiz_image_view"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|top"
+        android:src="@drawable/image_film"
+        tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="#ECEFF5"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="14dp">
+
+        <ImageButton
+            android:id="@+id/btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/image_home"
+            android:layout_gravity="end"/>
+
+        <ImageView
+            android:layout_width="287dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="-29dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/main_title"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="78dp"
+            android:text="@string/subtitle"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_margin="16dp"
+            android:textColor="#003C56"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ibmplexserif_regular"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:id="@+id/progress_bar"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recycler_view"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                android:orientation="vertical"
+                app:spanCount="2"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

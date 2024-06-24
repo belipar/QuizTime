@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ECEFF5"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/arrow_left"
+        android:padding="0dp"
+        android:backgroundTint="#ECEFF5"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="24sp"
+        android:textColor="#003C56"
+        android:fontFamily="@font/ibmplexserif_regular"
+        android:text="@string/back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rceord"
+        android:textSize="40sp"
+        android:textColor="#003C56"
+        android:fontFamily="@font/ibmplexserif_regular"
+        android:gravity="center"
+        android:layout_marginTop="56dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:gravity="center">
+
+        <ProgressBar
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:id="@+id/progress_bar"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_view"
+            android:orientation="vertical" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <vector
+            android:width="170dp"
+            android:height="200dp"
+            android:viewportWidth="170"
+            android:viewportHeight="200"
+            >
+            <group>
+                <clip-path
+                    android:pathData="M20 0H150C161.046 0 170 8.95431 170 20V180C170 191.046 161.046 200 150 200H20C8.95431 200 0 191.046 0 180V20C0 8.95431 8.95431 0 20 0Z"
+                    />
+                <path
+                    android:pathData="M0 0V200H170V0"
+                    android:fillColor="#F8FDFF"
+                    />
+            </group>
+        </vector>
+    </item>
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="#ECEFF5"/>
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+    <item android:bottom="2px"
+        android:right="2px">
+        <shape android:shape="rectangle">
+            <solid android:color="#0D000000"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+    <item android:bottom="3px"
+        android:right="3px">
+        <shape android:shape="rectangle">
+            <solid android:color="#0D000000"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+    <item android:bottom="5px"
+        android:right="4px">
+        <shape android:shape="rectangle">
+            <solid android:color="#0D000000"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+    <item android:bottom="8px"
+        android:right="6px">
+        <shape android:shape="rectangle">
+            <solid android:color="#1A000000"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+
+    <item android:bottom="10px"
+        android:right="8px">
+        <shape android:shape="rectangle">
+            <solid android:color="#F8FDFF"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+</layer-list>

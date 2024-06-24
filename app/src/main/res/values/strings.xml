@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">QuizTime</string>
+    <string name="subtitle">Проверь свои знания, и наслаждайся увлекательными викторинами!</string>
+    <string name="text_info">Приложение разработано в рамках изучения дисциплины Разработка мобильных приложений.
+        &#xA;Дизайн: Яковленкова Варвара
+        &#xA;Разработчик: Чечурин Андрей</string>
+    <string name="todo">TODO</string>
+    <string name="none">-</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info">“QuizTime” Версия 1.0.1 Разработчики: Чечурин Андрей, Яковленкова Варвара. Дизайн: Яковленкова Варвара</string>
+    <string name="accept">Уверены что хотите выйти?</string>
+    <string name="cansel">Отмена</string>
+    <string name="exit">Выйти</string>
+    <string name="back">Назад</string>
+    <string name="next">Дальше</string>
+    <string name="count_q">10 вопросов</string>
+    <string name="start">Начать</string>
+    <string name="record">Таблица рекордов</string>
+    <string name="info_btn">О приложении</string>
+    <string name="rceord">Рекорды</string>
+</resources>
